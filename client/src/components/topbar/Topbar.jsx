@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useContext, useEffect,useState } from "react";
 import { AuthContext } from "../../context/AuthContext";
 import axios from 'axios'
-import { Avatar, Divider, IconButton, ListItemIcon, Menu, MenuItem, Tooltip } from "@mui/material";
+import { Divider, IconButton, ListItemIcon, Menu, MenuItem, Tooltip } from "@mui/material";
 
 export default function Topbar() {
   const { user: currentUser } = useContext(AuthContext);
