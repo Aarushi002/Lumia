@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://lumia-w3xn.vercel.app/$1"
+    }
+  ]
+}
