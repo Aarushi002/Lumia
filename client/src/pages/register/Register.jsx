@@ -24,7 +24,7 @@ export default function Register() {
         password: password.current.value,
       };
       try {
-        await axios.post("/auth/register", user);
+        await axios.post("https://lumia-w3xn.vercel.app/auth/register", user);;
         navigate("/login");
       } catch (err) {
         console.log(err);
