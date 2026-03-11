@@ -6,7 +6,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../context/AuthContext";
 import {AddBox, PersonRemove} from '@mui/icons-material';
-//import ChatOnline from "../chatOnline/ChatOnline";
+
 
 export default function Rightbar({ user }) {
   const PF = process.env.REACT_APP_PUBLIC_FOLDER;
