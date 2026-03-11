@@ -144,3 +144,5 @@ io.on("connection", (socket) => {
     io.emit("getUsers", users);
   });
 });
+
+module.exports = app;
