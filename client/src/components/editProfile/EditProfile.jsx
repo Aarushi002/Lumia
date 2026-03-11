@@ -1,7 +1,7 @@
 import { Button, MenuItem, TextField } from '@mui/material'
 import { Container } from '@mui/system'
 import './editProfile.css'
-import React, { useContext, useEffect, useRef, useState } from 'react'
+import React, { useContext, useState } from 'react'
 import axios from 'axios';
 import { AuthContext } from '../../context/AuthContext';
 
